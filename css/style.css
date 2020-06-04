@@ -413,7 +413,35 @@ nav ul li a:hover{
 .profile-skills .skills .skills-bar:nth-of-type(3) .bar span{
 	width:70%
 }
-@media (max-width:767px){  /****Extra Small Screen For Phone & Tablets****/
+@media (min-width:320px) and (max-width:499px){
+	.profile-skills .profile{
+		width:100%;
+		margin-bottom:30px;
+		border-bottom:1px solid #DDD;
+	}
+	.profile-skills .skills{
+		width:100%;
+	}
+	.profile-skills .profile h2,
+	.profile-skills .skills h2{
+		text-align:center
+	}
+	.profile-skills .profile ul{	
+		margin-left:65px
+	}
+	.profile-skills .profile ul li{
+		font-size:10px
+	}
+	.profile-skills .skills p{
+		margin-bottom:35px
+	}
+	.profile-skills .skills .skills-bar{
+		margin-bottom:35px
+	}
+	
+	
+}
+@media (min-width:500px) and (max-width:767px){  /****Extra Small Screen For Phone & Tablets****/
 	.profile-skills .profile{
 		width:100%;
 		margin-bottom:30px;
@@ -428,6 +456,8 @@ nav ul li a:hover{
 	}
 	.profile-skills .profile ul{	
 		margin-left:90px
+	}
+	.profile-skills .profile ul li{
 	}
 	.profile-skills .skills p{
 		margin-bottom:35px
