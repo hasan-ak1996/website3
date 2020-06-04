@@ -94,7 +94,7 @@ nav ul li a:hover{
 .home{
 	background-image:url('../images/Home/home-bg.jpg');
 	background-size:cover;
-	height:410px;
+	overflow:hidden;
 	background-position:50% 50%
 }
 .home .info{
